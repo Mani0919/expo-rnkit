@@ -1,15 +1,18 @@
+cat << 'EOF' > README.md
 # RNKIT 🚀
 ### Expo Project Generator CLI
 
-RNKIT is a command-line tool that scaffolds a clean Expo React Native project and optionally configures:
+RNKIT is a command-line tool that scaffolds a clean Expo React Native project and optionally configures common production tools automatically.
 
-- NativeWind (Tailwind CSS)
-- TanStack Query
-- AsyncStorage
+You can install only what you need:
+
+- NativeWind (Tailwind CSS for React Native)
+- TanStack Query (server state management)
+- AsyncStorage (local persistence)
 - Clean src/app architecture
-- Ready-to-run layout
+- Ready-to-run layout setup
 
-No manual setup required.
+No manual configuration. Start building immediately.
 
 ---
 
@@ -17,7 +20,7 @@ No manual setup required.
 
 Run instantly without installing:
 
-npx @mani_0919/rnkit
+npx @mani_0919/rnkit myApp
 
 Or install globally:
 
@@ -26,7 +29,7 @@ rnkit myApp
 
 ---
 
-## ▶️ Start the Project
+## ▶️ Start the App
 
 cd myApp
 npx expo start -c
@@ -35,7 +38,7 @@ npx expo start -c
 
 ## 🧠 Interactive Setup
 
-RNKIT asks step-by-step:
+RNKIT will ask step-by-step:
 
 Project name
 Run reset-project
@@ -43,23 +46,47 @@ Install NativeWind
 Install TanStack Query
 Install AsyncStorage
 
-Only selected features will be installed.
+Only selected features will be installed — keeping your project lightweight.
 
 ---
 
 ## 📁 Generated Structure
 
 myApp
- ├── src
- │   └── app
- │       └── _layout.tsx
- ├── global.css
- ├── babel.config.js
- ├── metro.config.js
- └── package.json
+├── src
+│   └── app
+│       └── _layout.tsx
+│
+├── global.css            (only if NativeWind installed)
+├── babel.config.js       (only if NativeWind installed)
+├── metro.config.js       (only if NativeWind installed)
+│
+├── package.json
+└── node_modules
 
 ---
 
+## 🛠 Local Development
+
+git clone https://github.com/Mani0919/expo-rnkit.git
+cd expo-rnkit
+npm link
+rnkit testApp
+
+---
+
+## 📤 Publishing Updates
+
+npm version patch
+npm publish
+
+---
+
+## 🔄 Always Use Latest Version
+
+npx @mani_0919/rnkit@latest myApp
+
+---
 
 ## ⚙️ Requirements
 
@@ -75,4 +102,7 @@ Mani
 
 ---
 
+## 📜 License
 
+MIT © Mani
+EOF
