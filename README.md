@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # RNKIT 🚀
 ### Expo Project Generator CLI
 
@@ -50,26 +49,9 @@ Only selected features will be installed — keeping your project lightweight.
 
 ---
 
-
-## 🛠 Local Development
-
-git clone https://github.com/Mani0919/expo-rnkit.git
-cd expo-rnkit
-npm link
-rnkit testApp
-
----
-
-## 📤 Publishing Updates
-
-npm version patch
-npm publish
-
----
-
 ## 🔄 Always Use Latest Version
 
-npx @mani_0919/rnkit@latest myApp
+npx @mani_0919/rnkit
 
 ---
 
@@ -86,8 +68,3 @@ Internet connection
 Mani
 
 ---
-
-## 📜 License
-
-MIT © Mani
-EOF
