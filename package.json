@@ -1,0 +1,20 @@
+{
+  "name": "@mani_0919/rnkit",
+  "version": "1.0.7",
+  "description": "Expo NativeWind starter generator",
+  "main": "index.js",
+  "bin": {
+    "rnkit": "./index.js"
+  },
+  "keywords": [
+    "expo",
+    "nativewind",
+    "starter",
+    "react-native"
+  ],
+  "license": "MIT",
+  "type": "commonjs",
+  "publishConfig": {
+    "access": "public"
+  }
+}
