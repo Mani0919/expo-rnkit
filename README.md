@@ -50,21 +50,6 @@ Only selected features will be installed — keeping your project lightweight.
 
 ---
 
-## 📁 Generated Structure
-
-myApp
-├── src
-│   └── app
-│       └── _layout.tsx
-│
-├── global.css            (only if NativeWind installed)
-├── babel.config.js       (only if NativeWind installed)
-├── metro.config.js       (only if NativeWind installed)
-│
-├── package.json
-└── node_modules
-
----
 
 ## 🛠 Local Development
 
