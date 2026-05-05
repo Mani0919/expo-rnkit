@@ -1,6 +1,6 @@
 {
   "name": "@mani_0919/rnkit",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Expo NativeWind starter generator",
   "main": "index.js",
   "bin": {
